@@ -1,0 +1,35 @@
+Assets and info
+
+body color: #21272d 14px
+
+container 680px wide
+
+h1 Gibson, Helvetica Neue, sans-serif 40px/1.2em
+
+text Source Sans Pro, Helvetica Neue, sans-serif 18px/1.7em
+
+meta color: #a4adb6
+
+footer background: #f9f9fa
+
+borders 1px solid #ededee
+
+links color: #d35c6f
+
+buttons background: #8f9396
+
+
+verbiage
+Integer posuee erat a ante dapibus posuere velit aliquet, Cum socilis notoque pentatibus et magnis dis parturient montes, nascetur montes, nescetur ridiculus mus, Vestibulum id ligula porta felis euismod semper, Maecenas sed diam eget risus varius blandit sit amet nob magna.
+
+Fusce dapibus, trllus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+massa justo sit amet risus. Morbi leo risus, porta a consectetur ac, vestibulum at eros. Cras
+mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Curabitur
+blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis
+mollis, est non commodo luctus, nisi erat porttitor liqula, eget lacinia idio sem nec elit.
+
+Nullam id dolor id nubh ultricies vehicula ut elit. Vivamus sagittis lacus vel augue laoreet
+rutrum faucibus dolor auctor, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Maecenas faucibus mollis ibterdum. Aenean lacinia bibendum nulla sed consectetur. Morbi
+leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue
+laoreet rutrum faucibus dolor auctor.
