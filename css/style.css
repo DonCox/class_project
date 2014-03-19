@@ -1,8 +1,8 @@
 /* . for a class and # for an id */
 body {
-    background-color: #a4adb6;
+    /*background-color: #a4adb6;*/
     font-family: Gibson, Helvetica Neue, sans-serif;
-    width: 1000px;                              
+    /*width: 1000px; */                             
     margin: auto;
     /*max-width: 1000px;*/                         
     border: 1px solid #ededee;
@@ -12,21 +12,24 @@ body {
 .container {
     background-color: #fff;
     width: 100%;
-    max-width: 1000px;   
+    /*max-width: 680px;*/
 }
 
 .main {
     background-image: url('../images/roon-hero-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
+    background-position: top;
     margin: 0;
     padding: 0;
     width: 100%;        
-    height: 700px;
+    height: 650px;
+    vertical-align: baseline;
 }
-.bkground {
+/*.bkground {
     width: 100%;
-}
+}*/
 h1 {
     font-family: Gibson, Helvetica Neue, sans-serif;
     font-size: 1.2em;     
@@ -72,7 +75,8 @@ p {
 }
 .connect {
     display: block;
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -87,11 +91,18 @@ p {
 .drew-photo {
     float: left;
     width: 40%;
+}.photo-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
 .drew-tags {
     margin-top: 30px;
     margin-right: 25%;
     float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
 .drew-tags a {
     text-decoration: none;
@@ -111,6 +122,7 @@ p {
     display: inline-block;
     font-size: 30px;
     background: #f9f9fa;
+    border-top: 1px solid #ededee;
     margin-top: 30px;
     width: 100%;
     height: 75px;
@@ -153,27 +165,37 @@ p {
     vertical-align: middle;
 }
 sub-footer a {
+    background: #f9f9fa;
     text-decoration: none;
     vertical-align: middle;
 }
 /* Media queries */
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media only screen and 
+and (min-device-width: 319px) 
+and (max-device-width: 480px) {
+    .main {
+        height: 320px;
+    }
     .container {
         max-width: 430px;
     }
 }
 @media screen
-and (max-width: 481px)
-and (max-width: 638px) {
+and (min-width: 480px)
+and (max-width: 639px) {
+    .main {
+        height: 300px;
+    }
     .container {
-        max-width: 430px;
+        max-width: 500px;           /*430px*/
         margin-left: 15px;
     }
     .twitter-icon {
         margin-left: -30px;    
+    }
+    .drew-tags {
+        font-size: 15px;
     }
     .play_icon img {
         margin-left: 2%;
@@ -186,12 +208,18 @@ and (max-width: 638px) {
 @media only screen
 and (min-width : 639px)
 and (max-width: 767px) {
+    .main {
+        height: 480px;
+    }
     .container {
         max-width: 680px;
         margin-left: 1px;
     }
     .buttons {
         margin-left: 22%;
+    }
+    .connect {
+        height: inherit;
     }
     .play_icon img {
         margin-left: 13%;
@@ -206,6 +234,9 @@ and (max-width: 767px) {
 @media only screen
 and (min-width : 768px)
 and (max-width: 1023px) {
+    .main {
+        height: 600px;
+    }
     .container {
         max-width: 680px;
         margin-left: 4%;
